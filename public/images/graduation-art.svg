@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="720" viewBox="0 0 600 720" fill="none">
+<defs>
+ <linearGradient id="paper" x1="0" y1="0" x2="600" y2="720" gradientUnits="userSpaceOnUse"><stop stop-color="#dce3d4"/><stop offset="1" stop-color="#a9bca9"/></linearGradient>
+ <linearGradient id="cap" x1="150" y1="220" x2="435" y2="390" gradientUnits="userSpaceOnUse"><stop stop-color="#345c4b"/><stop offset="1" stop-color="#102e26"/></linearGradient>
+ <linearGradient id="roll" x1="206" y1="430" x2="228" y2="494" gradientUnits="userSpaceOnUse"><stop stop-color="#fffbed"/><stop offset=".5" stop-color="#e8ddbd"/><stop offset="1" stop-color="#c7b58d"/></linearGradient>
+ <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="8" dy="20" stdDeviation="18" flood-color="#233b28" flood-opacity=".22"/></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="12"/></filter>
+ <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".5" fill="#294b37" opacity=".07"/><circle cx="4" cy="4" r=".5" fill="#fff" opacity=".18"/></pattern>
+</defs>
+<rect width="600" height="720" fill="url(#paper)"/>
+<path d="M385-20 650 245M305-20 650 325M225-20 650 405" stroke="#f4f4dc" stroke-width="38" opacity=".25"/>
+<ellipse cx="316" cy="560" rx="220" ry="46" fill="#617c60" opacity=".13" filter="url(#soft)"/>
+<rect x="27" y="27" width="546" height="666" rx="250" stroke="#f8f7e8" stroke-opacity=".5"/>
+<path d="M67 720C145 572 73 418 41 313M91 593C65 547 21 529 1 535M100 529C123 486 131 456 113 427M85 469C52 437 20 427 0 435M67 407C82 369 75 348 58 328" stroke="#667d57" stroke-width="3"/>
+<g fill="#758c61"><ellipse cx="51" cy="555" rx="14" ry="44" transform="rotate(-50 51 555)"/><ellipse cx="113" cy="473" rx="15" ry="43" transform="rotate(19 113 473)"/><ellipse cx="39" cy="448" rx="13" ry="40" transform="rotate(-57 39 448)"/><ellipse cx="70" cy="366" rx="12" ry="33" transform="rotate(-13 70 366)"/></g>
+<g filter="url(#shadow)" transform="rotate(-12 323 484)">
+ <rect x="166" y="393" width="303" height="170" rx="5" fill="#294c3d"/>
+ <path d="M173 549h288v12H173z" fill="#c8bd9e"/>
+ <rect x="166" y="386" width="303" height="163" rx="5" fill="#385b48"/>
+ <rect x="181" y="400" width="272" height="133" rx="2" stroke="#b5ad7c" stroke-opacity=".6"/>
+ <text x="318" y="509" text-anchor="middle" font-family="Georgia,serif" font-size="14" letter-spacing="5" fill="#d8cfab">THE NEXT CHAPTER</text>
+</g>
+<g filter="url(#shadow)">
+ <path d="M195 290v93c47 48 118 58 185 5l5-98Z" fill="#193e31"/>
+ <path d="M196 325c55 38 122 44 187-1v24c-66 48-123 44-187 1Z" fill="#2c4f3e"/>
+ <path d="m113 267 185-103 199 108-186 114Z" fill="url(#cap)"/>
+ <path d="m113 267 198 112 186-107v9L311 394 113 275Z" fill="#15372a"/>
+ <path d="m126 266 172-93 185 99-172 103Z" stroke="#69816a" stroke-opacity=".5"/>
+ <path d="m304 271 125 65-10 94" stroke="#b9a36a" stroke-width="5" stroke-linecap="round"/>
+ <ellipse cx="304" cy="271" rx="10" ry="6" fill="#cdb779"/>
+ <path d="m419 420-15 48c9 9 20 11 30 4l-8-51Z" fill="#c6ad70"/>
+ <path d="m417 430-6 36m10-35-2 39m5-38 3 37" stroke="#e2ce96" stroke-width="2"/>
+ <rect x="413" y="415" width="17" height="12" rx="4" fill="#b89c61"/>
+</g>
+<g filter="url(#shadow)" transform="rotate(19 310 457)">
+ <path d="M178 425h260v60H178Z" fill="url(#roll)"/>
+ <ellipse cx="178" cy="455" rx="12" ry="30" fill="#f8f0d9"/>
+ <ellipse cx="438" cy="455" rx="12" ry="30" fill="#c1ae84"/>
+ <ellipse cx="439" cy="455" rx="7" ry="22" fill="#e9ddbb"/>
+ <ellipse cx="440" cy="455" rx="3" ry="14" fill="#bca67c"/>
+ <path d="M299 425h24v60h-24Z" fill="#355742"/>
+ <path d="m312 456-33 49 21-4 10 14 11-53 13 46 9-15 17 4-39-44Z" fill="#254a38"/>
+ <path d="M309 449c-39-42-51 3-14 7l15-2c28-40 53-9 16 1l-16-1" stroke="#47674f" stroke-width="10"/>
+ <ellipse cx="312" cy="453" rx="10" ry="8" fill="#214333"/>
+</g>
+<path d="M531 699c-26-90-32-165 23-259M517 611c-27-25-56-25-74-14m80-24c33-8 47-28 53-51m-45 7c-29-18-44-17-60-8m71-25c30-2 44-20 50-39" stroke="#e3e4c9" stroke-width="2"/>
+<g fill="#e2e2c4"><ellipse cx="471" cy="596" rx="31" ry="10" transform="rotate(18 471 596)"/><ellipse cx="556" cy="550" rx="30" ry="11" transform="rotate(-46 556 550)"/><ellipse cx="495" cy="522" rx="27" ry="10" transform="rotate(15 495 522)"/><ellipse cx="567" cy="479" rx="25" ry="9" transform="rotate(-37 567 479)"/></g>
+<g fill="#faf6df"><path d="m105 161 3 10 10 3-10 3-3 10-3-10-10-3 10-3Z"/><path d="m481 152 2 7 7 2-7 2-2 7-2-7-7-2 7-2Z"/></g>
+<text x="300" y="100" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#48624b" letter-spacing="6">A MOMENT TO REMEMBER</text>
+<text x="300" y="623" text-anchor="middle" font-family="Georgia,serif" font-size="55" font-style="italic" fill="#2e513e">the beginning.</text>
+<text x="300" y="653" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#526b51" letter-spacing="4">OF EVERYTHING WE DREAMED OF</text>
+<rect width="600" height="720" fill="url(#grain)"/>
+</svg>
